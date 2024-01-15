@@ -206,7 +206,8 @@ main {
 
 /* Footer section styles */
 .footer_section {
-    margin: 130px 240px;
+    max-width: 1440px;
+    margin: 130px auto;
 }
 
 .footer_text {
