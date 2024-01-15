@@ -147,7 +147,7 @@ main {
     margin-left: 90px;
 }
 
-.ten_years_badge h2{
+.ten_years_badge h2 {
     font-size: 4rem;
     margin: 0;
 }
@@ -200,6 +200,17 @@ main {
     width: 165px;
 }
 
+/* Footer section styles */
+.footer_section {
+    margin: 130px 240px;
+}
+
+.footer_text {
+    padding: 40px 410px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
 
 /* Responsive media queries */
 /* mobile devices */
@@ -212,7 +223,7 @@ main {
     .team_container,
     .features,
     .facts_card_container,
-    .sponsors_img_container  {
+    .sponsors_img_container {
         flex-direction: column;
     }
 
@@ -220,7 +231,7 @@ main {
         width: 90%;
         margin-left: 0;
     }
-    
+
     .ten_years_badge {
         position: static;
         max-width: 300px;
